@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@radix-icons/vue": "^1.0.0",
+    "@vueuse/core": "^10.9.0",
+    "axios": "^1.6.8",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "jspdf-invoice-template": "^1.4.3",
+    "lucide-react": "^0.372.0",
+    "lucide-vue-next": "^0.365.0",
+    "nuxt": "^3.11.2",
+    "nuxt-icon": "^0.6.10",
+    "pdfmake": "^0.2.10",
+    "radix-vue": "^1.6.2",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue-sonner": "^1.1.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.2",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "shadcn-nuxt": "^0.10.2",
+    "typescript": "^5.4.4"
+  }
+}
